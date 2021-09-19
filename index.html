@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width , initial-scale=1.0">
+ 	<title>Lifecare Hospital</title>
+     <link rel="stylesheet" href="style.css"> 
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">	
+    </head>
+    <body>
+        <div class="start">
+            <div class="s1">
+                <img src="img/logo/bng.jpg" alt="">
+            </div>
+            <div class="s2">
+                <div><img src="img/logo/mlogo.jpg" alt=""></div>
+                <div style="padding-left: 10px;"><h5>Emergency :-<br>9871659325/<br>8975412625</h5></div>
+            </div>
+            <div class="s3">
+              <button class="ps7" onclick="document.getElementById('id01').style.display='block'" style="width:auto; border-radius: 40px;
+              background: linear-gradient(90deg,#0162c8,#55e7fc);">Make An Appoinment</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="ps_7.php" method="post">
+
+    <div class="tb">
+      <label for="uname"><b>Name :-</b></label>
+      <input type="text" placeholder="Enter Username" name="name" required>
+
+      <label for="psw"><b>Email :-</b></label>
+      <input type="email" placeholder="Enter Your Email" name="email" required>
+      <label for="psw"><b>phone number :-</b></label>
+      <input type="number" placeholder="Enter Your number" name="number" required>
+      <label for="psw"><b>Message :-</b></label>
+      <input type="text" placeholder="Enter Your Message" name="message" required>
+        
+      <button type="submit" class="ps8"><a href="index.html" style="text-decoration: none; color: white; font-size: 20px;">submit</a></button>
+    </div>
+
+    <div class="tb" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+            </div>
+            <div class="s4">
+                <div><img src="img/logo/location.jpg" alt=""></div>
+                <div style="padding-left: 10px;">
+                    138 , AJC Bose Road<br>Kolkata-700014<br><i class="fa fa-envelope"></i> - info.Lifecare@gmail.com
+                </div>
+            </div>
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active"><i class="fa fa-home"></i> Home</a>
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa fa-bars"></i> About Us
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="who.html">Who We Are</a>
+                  <a href="our.html">Our Misson Vision & Policy</a>
+                  <a href="track.html">Our Track Record</a>
+                </div>
+              </div>
+            <div class="dropdown">
+              <button class="dropbtn"><i class="fa fa-plus-square"></i> Departments-1 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="Anaesthesiology.html">Anaesthesiology</a>
+                <a href="cardiology.html">Cardiology</a>
+                <a href="cardiothoracic.html">Cardiothoracic Surgery</a>
+                <a href="Inter.html">Interventional Cardiology</a>
+                <a href="darmato.html">Dermatosurgery</a>
+                <a href="diab.html">Diabetology</a>
+                <a href="ent.html">ENT,Head and Neck Surgery</a>
+                <a href="advlap.html">Advanced Laparoscopic Surgery</a>
+                <a href="nephrology.html">Nephrology</a>
+              </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa fa-plus-square"></i> Departments-2
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="general.html">General and Laparoscopic Surgery</a>
+                  <a href="gastro.html">Gastroenterology</a>
+                  <a href="medicine.html">General Medicine</a>
+                  <a href="Neurology.html">Neurology</a>
+                  <a href="gynaceology.html">Gynaecology</a>
+                  <a href="onko.html">Oncology And Oncosurgery</a>
+                  <a href="rehav.html">Rehabilitation Medicine</a>
+                  <a href="respiratory.html">Respiratory Medicine</a>
+                  <a href="criticle.html">Criticle care</a>
+                </div>
+              </div>
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa fa-id-badge"></i> Facilities
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="hos.html">Choosing The Right Hospital</a>
+                  <a href="gen facilities.html">General Facilities</a>
+                  <a href="tpa.html">TPA & Cashless</a>
+                  <a href="emergency.html">Emergency Services</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn"><i class="fa fa-user-circle"></i> Diagonistics
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="Pathology.html">Pathology</a>
+                  <a href="radiology.html">Radiology</a>
+                  <a href="cardiology.html">Cardiology</a>
+                  <a href="gastro.html">Gastroenterology</a>
+                  <a href="Neurology.html">Neurology</a>
+                  <a href="spirometry.html">Spirometry</a>
+                  <a href="audiometry.html">Audiometry</a>
+                </div>
+              </div>
+            <a href="emergency.html"><i class="fa fa-ambulance"></i> Emergency</a>
+            <a href="contact.html"><i class="fa fa-phone"></i> Contact</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+    
+          
+          <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+          </script>
+          <div class="mid">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 10</div>
+                  <img src="img/banner/b1.jpg" style="width:100%">
+                  <div class="text">
+                    <h1>Welcome To Lifecare Hospital</h1>
+                  </div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 10</div>
+                  <img src="img/banner/b2.jpg" style="width:100%">
+                  <div class="text">
+                    <h1>We Support Our Fighters And survivors</h1>
+                  </div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 10</div>
+                  <img src="img/banner/b3.jpg" style="width:100%">
+                  <div class="text">
+                    <h1>Best quality Operation Theater</h1>
+                  </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 10</div>
+                    <img src="img/banner/b4.jpg" style="width:100%">
+                    <div class="text">
+                      <h1>your Heart Safe - In Our hand<br>
+                        <div class="bk">
+                          <a href="cardiology.html">Cardiology</a>
+                        </div>
+                      </h1>
+                    </div>
+                  </div>
+
+                  <div class="mySlides fade">
+                    <div class="numbertext">5 / 10</div>
+                    <img src="img/banner/b5.jpg" style="width:100%">
+                    <div class="text">
+                      <h1>Get Treated By Expert Doctor<br>
+                    </div>
+                  </div>
+
+                  <div class="mySlides fade">
+                    <div class="numbertext">6 / 10</div>
+                    <img src="img/banner/b6.jpg" style="width:100%">
+                    <div class="text">
+                      <h1>We Always Ready To Cure You<br>
+                        <div class="bk">
+                          <a href="criticle.html">Criticl Care</a></h1>
+                    </div>
+                  </div>
+
+                  <div class="mySlides fade">
+                    <div class="numbertext">7 / 10</div>
+                    <img src="img/banner/b7.jpg" style="width:100%">
+                    <div class="text">
+                      <h1>24 Hours Emergency Services<br>
+                        <div class="bk">
+                          <a href="emergency.html">Emergency</a></h1>
+                    </div>
+                  </div>
+
+                  <div class="mySlides fade">
+                    <div class="numbertext">8 / 10</div>
+                    <img src="img/banner/b9.jpg" style="width:100%">
+                    <div class="text">
+                      <h1>Top Ranked Doctors and SurGeons In Every Department<br>
+                        <div class="bk">
+                          <a href="track.html">Our Track Record</a></h1>
+                    </div>
+                  </div>
+
+                  <div class="mySlides fade">
+                    <div class="numbertext">9 / 10</div>
+                    <img src="img/banner/b8.jpg" style="width:100%">
+                    <div class="text">
+                      <h1>World Class Medical Team</h1>
+                    </div>
+                  </div>
+
+                  <div class="mySlides fade">
+                    <div class="numbertext">10 / 10</div>
+                    <img src="img/banner/b10.jpg" style="width:100%">
+                    <div class="text">
+                      <h1>qualified Nurshes And Medical Staffs</h1>
+                    </div>
+                  </div>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span> 
+                </div>
+                
+                <script>
+                var slideIndex = 0;
+                showSlides();
+                
+                function showSlides() {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("dot");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}    
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                  setTimeout(showSlides, 10000); // Change image every 2 seconds
+                }
+                </script>
+                
+          </div>
+          <div class="lk">
+              <h2>CALL US TODAY<br>........</h2>
+          </div>
+          <div class="G">
+              <div class="container">
+                  <div class="box">
+                      <img src="img/logo/icon1.jpg" alt="">
+                      <h3>Clinic Booking,<br>OPD Doctor Consultation</h3>
+                      <p>033 66011800 (6am to 8pm)<br>033 66871800 (Emergency)</p>
+                  </div>
+                  <div class="box">
+                    <img src="img/logo/icon2.jpg" alt="">
+                    <h3 style="color: red;">Emergency Services<br>(24 Hour Helpline)</h3>
+                    <p>033 66871800<br>033 66011800</p>
+                </div>
+                <div class="box">
+                    <img src="img/logo/icon3.jpg" alt="">
+                    <h3 style="color: seagreen">Medical Store <br>(24 Hour Open)</h3>
+                    <p>+919831358000<br>+919736542187</p>
+                </div>
+              </div>
+          </div>
+          <div class="gp"></div>
+          <div class="mk">
+              <h3>CENTRE OF EXCELENCE</h3>
+              <P>........</P>
+              <h4>An exceptionally high concentration of expertise</h4>
+              <div class="my">
+                <div class="game">
+                  <div class="card">
+                    <div class="picBox">
+                    <img src="img/surgery photo/anth.jpg" style="height: 150px;">
+                    </div>
+                    <div class="contents">
+                    <h2>Anaesthesiology</h2>
+                    <p>The department of Anaesthesiology gives the facilities of <a href="Anaesthesiology.html">Read More.....</a></p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="picBox">
+                      <img src="img/surgery photo/card.jpg" style="height: 150px;">
+                      </div>
+                      <div class="contents">
+                        <h2>Cardiology</h2>
+                        <p>The department of Cardiology gives the facilities of <a href="cardiology.html">Read More.....</a></p>
+                        </div>
+                      </div>
+                <div class="card">
+                <div class="picBox">
+                <img src="img/surgery photo/laproscopic.jpg">
+                </div>
+                <div class="contents">
+                  <h2>Advance Laparoscopic Surgery</h2>
+                    <p>The department of Advance Laparoscopic Surgery gives the facilities of <a href="advlap.html">Read More.....</a></p>
+                </div>
+                </div>
+                <div class="card">
+                <div class="picBox">
+                <img src="img/surgery photo/em.jpg">
+                </div>
+                <div class="contents">
+                  <h2>Emergency Services</h2>
+                    <p>The department of Emergency Services gives the facilities of <a href="emergency.html">Read More.....</a></p>
+                </div>
+                </div>
+                </div>
+                </div>
+              </div>
+              <div class="lk">
+                <h2>SOME SPECIAL DOCTORS<br>........</h2>
+            </div>
+            <div class="G">
+              <div class="container">
+                  <div class="box">
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <img src="img/Doctor/doc-1.jpg" alt="Avatar" style="width: 315px; height: 300px;">
+                        </div>
+                        <div class="flip-card-back">
+                          <h1>Dr. Abir Ray</h1> 
+                          <p>Anaesthesiologist<br>(MBBS,MD)</p> 
+                          <p>Pain management,Pediatric Anesthesia<br><button type="button" class="btn btn-primary"><a href="form.html" style="text-decoration: none; text-align: center;">Book Now</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box">
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <img src="img/Doctor/doc-2.jpg" alt="Avatar" style="width: 315px; height: 300px;">
+                        </div>
+                        <div class="flip-card-back">
+                          <h1>Dr. S Mani</h1> 
+                          <p>Cardiologist<br>(MBBS,MD in Internal Medicine and DM in Cardiology)</p> 
+                          <p>Interventional Cardiologist in Department of Cardiology<br><button type="button" class="btn btn-primary"><a href="form.html" style="text-decoration: none; text-align: center;">Book Now</a></p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="box">
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="img/Doctor/doc-3.jpg" alt="Avatar" style="width: 315px; height: 300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Dr. A Chatterjee</h1> 
+                        <p>Dermatosurgeon<br>(MBBS,MD)</p> 
+                        <p>Laser Surgeon,Trichologist and Esthetic Consultant<br><button type="button" class="btn btn-primary"><a href="form.html" style="text-decoration: none; text-align: center;">Book Now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="img/Doctor/doc-4.jpg" alt="Avatar" style="width: 315px; height: 300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Dr. Mahuya Sikdar</h1> 
+                        <p>Diabetologist<br>(MBBS,Post Graduate Diploma in Diabetology)</p> 
+                        <p>Experienced Consultant in Department of Diabetology<br><button type="button" class="btn btn-primary"><a href="form.html" style="text-decoration: none; text-align: center;">Book Now</a></p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+          <div class="G">
+            <div class="container">
+                <div class="box">
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="img/Doctor/doc-5.jpg" alt="Avatar" style="width: 315px; height: 300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Dr. Bela Jones</h1> 
+                        <p>Gynaecologist<br>(Ms-Gynaecology,MBBS,Fellowship in Minimal Access Surgery)</p> 
+                        <p>Infertility Specialist in Department of Gynaecology<br><button type="button" class="btn btn-primary"><a href="form.html" style="text-decoration: none; text-align: center;">Book Now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="img/Doctor/doc-6.jpg" alt="Avatar" style="width: 315px; height: 300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Dr. Vijay Rai</h1> 
+                        <p>Gastroenterologist<br>(DM-Gastroenterology,MBBS,DNB-General Medicine)</p> 
+                        <p>Gastroenterologist in Department of Gastroenterology,Internal Medicine<br><button type="button" class="btn btn-primary"><a href="form.html" style="text-decoration: none; text-align: center;">Book Now</a></p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="box">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img src="img/Doctor/doc-7.jpg" alt="Avatar" style="width: 315px; height: 300px;">
+                    </div>
+                    <div class="flip-card-back">
+                      <h1>Dr. Amlan Mandal</h1> 
+                      <p>Neurologist<br>(MBBS,DTM & H,Md(medicine))</p> 
+                      <p>Senior Consultant in Department of Neurology<br><button type="button" class="btn btn-primary"><a href="form.html" style="text-decoration: none; text-align: center;">Book Now</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img src="img/Doctor/doc-8.jpg" alt="Avatar" style="width: 315px; height: 300px;">
+                    </div>
+                    <div class="flip-card-back">
+                      <h1>Dr. S Basu</h1> 
+                      <p>General Medicine Specialist<br>(MBBS,Md in General Medicine)</p> 
+                      <p>Expertised Consultant In Department of General Medicine<br><button type="button" class="btn btn-primary"><a href="form.html" style="text-decoration: none; text-align: center;">Book Now</a></p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="lk">
+          <h2>Services<br>....</h2>
+      </div>
+      <div class="fr">
+          <h2>Over 1 lakh Patients Trust Us<br>...........</h2>
+          <div class="hm">
+            <div class="cn">
+                <div class="bm">
+                    <div style="background-color: #2980b9; height: 50px; padding-top: 20px;">Years Of Experience</div>
+                    <div style="background-color:  springgreen; height: 50px; padding-top: 20px;">30</div>
+                </div>
+                <div class="bm">
+                  <div style="background-color: #2980b9; height: 50px; padding-top: 20px;">Numbers of Doctors</div>
+                    <div style="background-color:  springgreen; height: 50px; padding-top: 20px;">134</div>
+              </div>
+              <div class="bm">
+                <div style="background-color: #2980b9; height: 50px; padding-top: 20px;">Total Medical Staffs</div>
+                <div style="background-color:  springgreen; height: 50px; padding-top: 20px;">1600</div>
+              </div>
+              <div class="bm">
+                <div style="background-color: #2980b9; height: 50px; padding-top: 20px;">Our Happy Patients</div>
+                <div style="background-color:  springgreen; height: 50px; padding-top: 20px;">81,312</div>
+            </div>
+            </div>
+        </div>
+
+      </div>
+      <div class="lk">
+        <h2>Some Our Happy Patients<br>............</h2>
+    </div>
+    <div class="ui">
+      <div class="b a"><img src="img/feedback/p6.jpg" alt=""></div>
+      <div class="b k"><img src="img/feedback/p2.jpg" alt=""></div>
+      <div class="b c"><img src="img/feedback/p3.jpg" alt=""></div>
+      <div class="b d"><img src="img/feedback/p4.jpg" alt=""></div>
+      <div class="b e"><img src="img/feedback/p5.jpg" alt=""></div>
+      <div class="b f"><img src="img/feedback/p1.jpg" alt=""></div>
+      <div class="b g"><img src="img/feedback/p7.jpg" alt=""></div>
+      <div class="b h"><img src="img/feedback/p8.jpg" alt=""></div>
+      <div class="b i"><img src="img/feedback/p9.jpg" alt=""></div>
+      <div class="b j"><img src="img/feedback/p10.jpg" alt=""></div>
+    </div>
+    <div class="lk">
+      <h2>Testimonials<br>......</h2>
+  </div>
+    <div class="ds">
+    <div class="pj">
+      <div class="nl">
+        <div class="contnt">
+          <img src="img/testimonial/img.png" class="quote" alt="">
+          <p>I like our teamwork and<br>
+          so do patients,beacause it<br>
+          means better care</p>
+          <img src="img/testimonial/user1.jpg" class="user" alt="">
+          <h3>Crystal Belcher</h3>
+        </div>
+      </div>
+      <div class="nl">
+        <div class="contnt">
+          <img src="img/testimonial/img.png" class="quote" alt="">
+          <p>My goal as a Nurse Practitioner<br>
+          is to provide exceptional health care.
+          treating each patient like my own
+          family in their time of need.</p>
+          <img src="img/testimonial/user3.jpg" class="user" alt="">
+          <h3>Amelia</h3>
+        </div>
+      </div>
+      <div class="nl">
+        <div class="contnt">
+          <img src="img/testimonial/img.png" class="quote" alt="">
+          <p>I give to bronson Beacause we Dont Always
+            have all the resources we need to improve 
+            the quality of life of our patients.</p>
+          <img src="img/testimonial/user2.jpg" class="user" alt="">
+          <h3>Eduardo Osorio</h3>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="gp"></div>
+    <div class="op">
+      <div class="leftbox">
+        <h2>Lifecare</h2>
+        <div class="com">
+          <div class="a1">
+            <ul>
+              <li><a href="Anaesthesiology.html">Anaesthesiology</a></li>
+              <li> <a href="cardiology.html">Cardiology</a></li>
+              <li><a href="cardiothoracic.html">Cardiothoracic Surgery</a></li>
+              <li> <a href="Inter.html">Interventional Cardiology</a></li>
+              <li> <a href="darmato.html">Dermatosurgery</a></li>
+              <li><a href="diab.html">Diabetology</a></li>
+            </ul>
+          </div>
+          <div class="a1">
+            <ul>
+              <li><a href="ent.html">ENT,Head and Neck Surgery</a></li>
+              <li><a href="advlap.html">Advanced Laparoscopic Surgery</a></li>
+              <li><a href="Neurology.html">Nephrology</a></li>
+              <li> <a href="general.html">General and Laparoscopic Surgery</a></li>
+              <li><a href="gastro.html">Gastroenterology</a></li>
+              <li><a href="medicine.html">General Medicine</a></li>
+            </ul>
+          </div>
+          <div class="a1">
+            <ul>
+              <li><a href="Neurology.html">Neurology</a></li>
+              <li><a href="gynaceology.html">Gynaecology</a></li>
+              <li><a href="onko.html">Oncology And Oncosurgery</a></li>
+              <li><a href="rehav.html">Rehabilitation Medicine</a></li>
+              <li><a href="respiratory.html">Respiratory Medicine</a></li>
+              <li><a href="criticle.html">Criticle care</a></li>
+            </ul>
+          </div>
+        <div class="a1">
+            <ul>
+              <li><i class="fa fa-map-marker"></i> - 138 , AJC Bose Road ,Kolkata</li><br>
+              <li><i class="fa fa-phone"></i> - 8947562148 / 9874562135</li><br>
+              <li><i class="fa fa-envelope"> - info.Lifecare@gmail.com</i></li><br>
+              <li><a href="https://www.facebook.com/amit.rajbanshi.9022"><i class="fa fa-facebook-official"></i></a><span style="padding-left: 10px;"><a href="https://twitter.com/home"><i class="fa fa-twitter-square"></i></a></span><span style="padding-left: 10px;"><a href="https://youtu.be/z1uQWBtjwWc"><i class="fa fa-youtube-play"></i></a></span></li>
+            </ul>
+        </div>
+      </div>
+      <br>
+      <div class="kv">
+        <a href="index.html">Home |</a>
+        <span><a href="emergency.html"> Emergency |</a></span>
+        <span><a href="contact.html">Contact</a></span>
+      </div>
+      <br>
+      <div class="wm">
+        <p><i class="fa fa-copyright"></i> copyright.lifecare Hospital.All rights Deserved - made by Souvik :) (Made for Testing Purpose)</p>
+      </div>
+
+    </div>
+          </body>
+          </html>
+          
+            
